@@ -22,7 +22,7 @@ setup(name='openprocurement.auth',
       packages=find_packages(exclude=['ez_setup']),
       namespace_packages=['openprocurement'],
       include_package_data=True,
-      package_data={'': ['*.html']},
+      package_data={'': ['templates/*.html']},
       zip_safe=False,
       install_requires=[
           'setuptools',
